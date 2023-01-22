@@ -1,0 +1,11 @@
+.test {
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
