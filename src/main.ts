@@ -44,6 +44,18 @@ const materialCore = new THREE.MeshBasicMaterial({
   color: colors[4 % colors.length],
   wireframe: true,
 });
+// const particle = new THREE.BufferGeometry();
+// const geometryCore = new THREE.SphereGeometry(2, 8, 4);
+// const materialCore = new THREE.MeshBasicMaterial({
+//   color: colors[4 % colors.length],
+//   wireframe: true,
+// });
+// const particle = new THREE.BufferGeometry();
+// const geometryCore = new THREE.SphereGeometry(2, 4, 8);
+// const materialCore = new THREE.MeshBasicMaterial({
+//   color: colors[4 % colors.length],
+//   wireframe: true,
+// });
 
 const box = new THREE.Mesh(geometryCore, materialCore);
 scene.add(box);
